@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "linvingdoc"
+version = "0.1.0"
+description = "LivingDoc is a Python framework for embedding architectural annotations, design stereotypes, and project documentation directly into source code, following the Living Documentation approach from Software Craft. It provides decorators for Domain-Driven Design (DDD), software architecture, design patterns, testing, code smells, and guided tours to facilitate onboarding and project understanding. The CLI tool extracts structured design metadata, generates project documentation, glossaries, word clouds, and integrates with Gherkin features and user stories. LivingDoc enables automated documentation, dependency validation, and AI-assisted development, turning source code into a continuously evolving, self-documented system that ensures alignment between code, design, and business intent."
+authors = ["Pierre-Yves PAMART <pypamart@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
